@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js?ver=1.8.2'></script>
+ 	<script type='text/javascript' src='https://code.jquery.com/ui/1.10.4/jquery-ui.min.js'></script>
+	<script type='text/javascript'src='calc.js'></script>
+	<link rel='stylesheet'   href='calc.css' type='text/css' media='all' />
+</head>
+<body>
+
+<div class="lasik-calc">
+		
+					<div class="calc-field" id="years_of_use">
+			
+				<div class="calc-left">
+					<strong>Years of Expected Use</strong><br>
+					<em>Number of years you will have used glasses and/or contacts in your lifetime</em>
+					<div class="calc-slider" data-min="5" data-max="100" data-start="50" data-is_cash="false"></div>
+				</div><!-- tricky inline block nonsense
+				--><div class="calc-value">
+					<span> </span>
+				</div>
+
+			</div>
+					<div class="calc-field" id="exam_cost">
+			
+				<div class="calc-left">
+					<strong>Cost of Annual Exam</strong><br>
+					<em>Your cost per year for an annual eye exam</em>
+					<div class="calc-slider" data-min="50" data-max="250" data-start="75" data-is_cash="1"></div>
+				</div><!-- tricky inline block nonsense
+				--><div class="calc-value">
+					<span> </span>
+				</div>
+
+			</div>
+					<div class="calc-field" id="glasses_cost">
+			
+				<div class="calc-left">
+					<strong>Annual cost of glasses</strong><br>
+					<em>Your annual cost for your glasses including any prescription sunglasses</em>
+					<div class="calc-slider" data-min="100" data-max="2000" data-start="200" data-is_cash="1"></div>
+				</div><!-- tricky inline block nonsense
+				--><div class="calc-value">
+					<span> </span>
+				</div>
+
+			</div>
+					<div class="calc-field" id="lens_cost">
+			
+				<div class="calc-left">
+					<strong>Annual cost of contact lenses</strong><br>
+					<em>Your annual cost for contact lenses</em>
+					<div class="calc-slider" data-min="20" data-max="500" data-start="250" data-is_cash="1"></div>
+				</div><!-- tricky inline block nonsense
+				--><div class="calc-value">
+					<span> </span>
+				</div>
+
+			</div>
+					<div class="calc-field" id="solution_cost">
+			
+				<div class="calc-left">
+					<strong>Annual cost of Contact Lens Solution</strong><br>
+					<em>Your annual cost for contact lens solution</em>
+					<div class="calc-slider" data-min="10" data-max="200" data-start="80" data-is_cash="1"></div>
+				</div><!-- tricky inline block nonsense
+				--><div class="calc-value">
+					<span> </span>
+				</div>
+
+			</div>
+				
+		<div class="total-cost"><span></span></div>
+		
+		
+		</div> <!-- .lasik-calc -->
+
+</body>
+</html>

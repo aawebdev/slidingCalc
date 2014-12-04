@@ -1,0 +1,92 @@
+.lasik-calc {
+	margin-bottom: 2em;
+}
+
+.calc-field {
+	margin-bottom: 1em;
+}
+
+.calc-left, .calc-value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.calc-left { width: 70%; }
+
+.calc-value {
+	width: 20%;
+	text-align: center;
+}
+
+.calc-value span {
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+	background: white;
+	line-height: 75px;
+	background: #131A47;
+	box-shadow: inset 4px 9px 12px rgba(42, 56, 117, .8);
+	color: #f8e9d7;
+	font-size: 1.33em;
+	text-shadow: 0 -2px 0px rgba(42,56,117,1);
+}
+
+.calc-slider {
+	height: 15px;
+	margin: 15px 0 5px;
+	background: #131A47;
+	box-shadow: inset 3px 3px 4px rgba(64,22,12,.6);
+	position: relative;
+	width: 75%;
+}
+
+.calc-slider .ui-slider-handle {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: #9EC75C;
+	position: relative;
+	top: -32px;
+	border-radius: 15px;
+	margin-left: -15px;
+	box-shadow: 0 0 2px rgba(0,0,0,.1), inset 0px 0px 10px rgba(0,0,0,.6);
+	/* border: 1px solid #b7a472; */
+}
+
+.calc-slider .ui-slider-handle.ui-state-active {
+	box-shadow: 0 0 2px rgba(0,0,0,.2), inset 0px 0px 4px rgba(0,0,0,.4);
+}
+
+.calc-slider span {
+	margin-top: 0 !important;
+	display: inline-block;
+}
+
+.calc-slider span.connector {
+	height: 1px;
+	position: absolute;
+	width: 83%;
+	border-top: 1px dashed #521f13;
+	left: 27px;
+	top: 42px;
+}
+
+.total-cost {
+	text-align: right;
+	border-top: 3px solid #131A47;
+	color: #131A47;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 15px 35px 0 0;
+}
+
+.alignright {
+	float:right;
+}
+
+@media screen and ( max-width: 640px ) {
+	
+	.calc-slider span { display: none; }
+	
+}
